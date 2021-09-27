@@ -1,6 +1,6 @@
 $bg-color: #000000;
 $fg-color: #eeeeee;
-$active-bg: #EFB7B7;
+$active-bg: #efb7b7;
 
 ::selection {
   background-color: $active-bg;
@@ -17,5 +17,11 @@ body {
   font-family: Ubuntu, Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI";
   color: $fg-color;
+  font-size: 1.1rem;
   //background-color: $bg-color;
+}
+
+#Layout { 
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }

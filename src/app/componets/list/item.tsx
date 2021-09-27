@@ -5,7 +5,7 @@ export interface ItemType {
   url: URL
 }
 
-const Item: Component<ItemType> = ({ name, url }): JSXElement => {
+export const Item: Component<ItemType> = ({ name, url }): JSXElement => {
   return (
     <div>
       <a href={url.toString()}>

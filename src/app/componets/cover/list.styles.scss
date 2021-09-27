@@ -1,7 +1,7 @@
 .cover {
   img {
-    height: 500px;
-    width: 400px;
+    max-height: 500px;
+    width: auto;
     object-fit: contain;
     object-position: top;
   }

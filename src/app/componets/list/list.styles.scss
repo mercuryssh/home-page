@@ -1,0 +1,33 @@
+$active-color : #bd4b4b;
+
+.items-list {
+  padding: 1em 2em;
+  font-weight: 500;
+  background-color: #262626;
+
+  .display {
+    font-size: 1.4em;
+    margin: 1em 0.6em;
+
+    &::after {
+      content: " ~/";
+      color: $active-color;
+    }
+  }
+
+  a {
+    color: currentColor;
+    text-decoration: none;
+    margin: 0.2em;
+    display: block;
+
+    &:hover {
+      text-decoration: line-through 1px $active-color;
+    }
+
+    &::before {
+      content: "~/";
+      color: $active-color;
+    }
+  }
+}
