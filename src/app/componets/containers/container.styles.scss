@@ -1,0 +1,11 @@
+.container {
+  display: block;
+  margin: auto;
+}
+
+.container-screen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
