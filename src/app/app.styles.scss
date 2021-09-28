@@ -1,4 +1,4 @@
-$bg-color: #000000;
+$bg-color: #222222;
 $fg-color: #eeeeee;
 $active-bg: #efb7b7;
 
@@ -21,7 +21,11 @@ body {
   //background-color: $bg-color;
 }
 
-#Layout { 
+#Layout {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: auto auto;
+}
+
+a {
+  display: inline-block;
 }

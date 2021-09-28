@@ -1,6 +1,6 @@
 {
   "name": "homepage",
-  "version": "0.0.1",
+  "version": "0.4.13",
   "description": "My personal home page",
   "main": "src/index.ts",
   "repository": "https://github.com/waterssh/home-page.git",

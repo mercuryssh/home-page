@@ -1,9 +1,11 @@
-$active-color : #bd4b4b;
+$active-color: #bd4b4b;
+$bg-color: #303030;
 
 .items-list {
   padding: 1em 2em;
   font-weight: 500;
-  background-color: #262626;
+  background-color: $bg-color;
+  //box-shadow: $bg-color 4px 4px 8px, $bg-color 4px 4px 8px ;
 
   .display {
     font-size: 1.4em;
@@ -15,11 +17,20 @@ $active-color : #bd4b4b;
     }
   }
 
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    div {
+      width: 50%;
+    }
+  }
+
   a {
     color: currentColor;
     text-decoration: none;
     margin: 0.2em;
-    display: block;
 
     &:hover {
       text-decoration: line-through 1px $active-color;
@@ -27,6 +38,7 @@ $active-color : #bd4b4b;
 
     &::before {
       content: "~/";
+      font-weight: bold;
       color: $active-color;
     }
   }
