@@ -1,4 +1,4 @@
-import { Component, createSignal, JSXElement, onCleanup } from "solid-js";
+import { Component, createSignal, JSXElement, onCleanup } from 'solid-js'
 import './time.styles.scss'
 
 type Ouro = {
@@ -10,7 +10,6 @@ type Ouro = {
 
 const Kronii = (): Ouro => {
   const date: Date = new Date()
-
   const rounded = (num: number): string => {
     return (num < 10 ? '0' + num : num.toString())
   }

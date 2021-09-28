@@ -1,5 +1,5 @@
-import { Component, For, JSXElement } from "solid-js";
-import { ItemType, Item } from "./item";
+import { For, JSXElement } from 'solid-js'
+import { ItemType, Item } from './item'
 
 export const ItemsList = ({ items }: { items: ItemType[] }): JSXElement => {
   return (

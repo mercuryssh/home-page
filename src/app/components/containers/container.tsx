@@ -1,4 +1,4 @@
-import { Component, JSXElement } from "solid-js";
+import { Component, JSXElement } from 'solid-js'
 
 export interface ContainerProps {
   children: JSXElement | JSXElement[]
